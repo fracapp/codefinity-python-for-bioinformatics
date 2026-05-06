@@ -12,7 +12,7 @@ def score_alignment(seq1, seq2):
         else:
             mismatches += 1
 
-    return (f"Score Alignment: {matches}, {mismatches}, {gaps}")
+    return (matches, mismatches, gaps)
         
         
 
