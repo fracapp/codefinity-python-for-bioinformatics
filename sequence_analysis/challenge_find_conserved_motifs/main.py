@@ -1,5 +1,7 @@
 def find_motif_positions(sequence, motif):
     # Write your code here
+    if motif == "":
+        return []
     positions = []
     for i in range(len(sequence) - len(motif) + 1):
         if sequence[i:i + len(motif)]== motif:
